@@ -1,0 +1,74 @@
+
+.desc {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.textDesc {
+    padding: 40px;
+    flex: 1;
+    text-align: justify;
+    font-size: x-large;
+}
+
+.imgDesc {
+    flex: 1;
+}
+
+.imgDesc img {
+    width: 40%;
+    height: 40%;
+    align-items: center;
+    margin-left: 300px;
+
+
+}
+
+.banner img{
+
+
+    height: 400px;
+    width: 1895px;
+
+}
+
+.product-row {
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 250px;
+    
+}
+
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 23%;
+    background-color: transparent;
+    border-radius: 5%;
+}
+
+
+.product img {
+    height: min-content;
+    cursor: pointer;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+.product-price {
+    font-weight: bold;
+}
+
+.servicios{
+
+    text-align: justify;
+    padding: 100px;
+    font-size: 200%;
+}

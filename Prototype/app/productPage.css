@@ -1,0 +1,43 @@
+.product-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 50px;
+}
+
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 23%;
+    background-color: transparent;
+}
+
+
+.product img {
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.product-price {
+    font-weight: bold;
+}
+
+.titulo{
+
+margin-right: 70px;
+margin-left: 70px;
+
+margin-bottom: 80px;
+
+font-size: 300%;
+}
+
+.PRODUCTOS{
+
+    font-size: 400%;
+
+}
